@@ -1,0 +1,38 @@
+.description{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 8px;
+}
+
+.myBag{
+    color:white;
+    margin-left: 1000px;
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 600px) {
+    /* Your styles for extra small devices go here */
+    .myBag{
+        color:white;
+        margin-left: 70px;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Your styles for small devices go here */
+   
+  }
+  
+  /* Medium devices (landscape tablets) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for medium devices go here */
+  }
+  
+  /* Large devices (laptops/desktops) */
+  @media only screen and (min-width: 1025px) {
+    /* Your styles for large devices go here */
+  }
+  
